@@ -4,7 +4,7 @@ from http import HTTPStatus
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
-    phrase = b'Hello world'
+    phrase = b'Hello everyone'
 
     def do_GET(self):
         self.send_response(HTTPStatus.OK)
